@@ -1,0 +1,18 @@
+language = "Python"
+print(language[0])
+print(language[-1])
+
+
+text = "Artificial Intelligence"
+print(text[0:-1])
+
+text = "Kotlin"
+print(text[::-1])
+
+question = "   What is Kotlin Flow?   "
+print(question.strip().lower())
+
+
+text = "Kotlin Python AI LLM RAG"
+print(text.split(" "))
+print(" ".join(text.split(" ")))

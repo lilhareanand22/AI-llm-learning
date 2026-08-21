@@ -15,3 +15,13 @@ b= 20
 a, b = b,a
 print(a)
 print(b)
+
+
+## list vs set vs tuple
+numbers_list = [1, 2, 2, 3]
+numbers_tuple = (1, 2, 2, 3)
+numbers_set = {1, 2, 2, 3}
+
+print(numbers_list)
+print(numbers_tuple)
+print(numbers_set)

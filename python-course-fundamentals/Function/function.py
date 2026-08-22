@@ -11,3 +11,6 @@ print(add("Hello", "World"))
 #default paramter
 def greet(name, message="Hello"):
     print(message, name)
+    
+    
+greet("Anand")

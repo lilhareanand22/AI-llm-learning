@@ -15,3 +15,7 @@ for file in folder.glob("*.txt"):
 
 for file in folder.rglob("*.txt"):
     print(file)
+    
+    
+    
+    

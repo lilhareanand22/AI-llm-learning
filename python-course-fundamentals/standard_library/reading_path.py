@@ -2,6 +2,11 @@ from pathlib import Path
 
 path = Path("notes.txt")
 
+print(path.name)
+print(path.suffix)
+print(path.stem)
+print(path.parent)
+
 content = path.read_text(encoding="utf-8")
 
 print(content)

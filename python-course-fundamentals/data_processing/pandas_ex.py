@@ -15,6 +15,3 @@ df = pd.DataFrame(data)
 print(df)
 
 
-df = pd.read_csv("employees.csv")
-
-print(df)

@@ -23,4 +23,16 @@ completion = client.chat.completions.create(
         },
     ],
 )
+#print(completion.choices[0].message.content)
+
+# Direct prompt example with openai / Zero-shot prompting
+completion = client.chat.completions.create(
+    model=model,
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "What is the capital of France?"},
+    ],
+)
+
 print(completion.choices[0].message.content)
+

@@ -69,9 +69,12 @@ prompt = ChatPromptTemplate.from_template(
 )
 
 # # Create a chat model
-model = ChatOpenAI(model="gpt-4o-mini")
+model = ChatOpenAI(model="gpt-6.1-sol")
 
 chain = prompt | model | StrOutputParser()
 
 response = chain.invoke({"docs": docs, "query": query})
 print(f"Model Response::: \n \n{response}")
+
+
+

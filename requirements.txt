@@ -10,3 +10,14 @@ for opena ai
 4. pip install streamlit
 5. pip install pypdf2
 6. Run streamlit ex: streamlit run rag_pdf_simple.py
+7. How to install
+ - pip install -U langchain
+ - pip install -U langchain-openai
+8. Langchian TextLoader:
+- pip install longchain - community
+9. Embedding and Retrievers with FAISS
+- pip install faiss-cpu
+10. while loading text file from directory
+- pip install unstructured
+11. how to use chain prompt
+   .pip install selenium

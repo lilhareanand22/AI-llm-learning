@@ -7,3 +7,6 @@ for opena ai
 1. pip install chromadb
 2. pip install chromadb pandas
 3. ollama pull nomic-embed-text
+4. pip install streamlit
+5. pip install pypdf2
+6. Run streamlit ex: streamlit run rag_pdf_simple.py
